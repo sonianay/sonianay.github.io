@@ -1,0 +1,3 @@
+help        Provides information on mock shell commands.
+dir         Displays a list of files in a directory.
+type        Displays the contents of a text file.    

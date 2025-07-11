@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  color: #0076ce;
+  font-family: "Source Sans Pro", sans-serif;
+  user-select: none;
+  -moz-user-select: none;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(../assets/60621739301.jpg);
+}
+#media {
+  text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#media h1 {
+  color: #d0dae0;
+  font-size: 250%;
+  margin-bottom: 15%;
+}
+#media h1:hover {
+  color: #d0dae0;
+  transition: 0.5s;
+}
+#media h3 {
+  color: #d0dae0;
+  font-size: 100%;
+  margin-bottom: 5%;
+}
+#media ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 40px 30px;
+  font-size: 150%;
+}
+#media a {
+  color: #d0dae0;
+  text-decoration: none;
+}
+#media a:hover {
+  color: #d0dae0;
+  text-shadow: 0 0 7px #d0dae0, 0 0 10px #d0dae0;
+  transition: 0.5s;
+}
+#media .test {
+  position: fixed;
+  height: 150%;
+  width: 200%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: translate(-25%, 0%);
+  border-radius: 0px;
+  border-style: solid;
+  border-color: white;
+}
+.terminal,
+.cmd,
+.terminal .terminal-output div div,
+.cmd .prompt {
+  text-align: left;
+  font-size: 12px;
+  line-height: 24px;
+  color: #aaa;
+}
+.cmd,
+.cmd span:not(.fas):not(.far):not(.fa),
+.terminal,
+.terminal-output > :not(.raw),
+.terminal-output > :not(.raw) a,
+.terminal-output > :not(.raw) span:not(.fas):not(.far):not(.fa) {
+  font-family: "Source Code Pro", monospace;
+}
+h4 {
+  color: #034694;
+  position: fixed;
+  bottom: 0;
+  width: 10%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+h4 a {
+  color: #034694;
+  text-decoration: none;
+}
