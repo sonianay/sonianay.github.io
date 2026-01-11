@@ -1,23 +1,15 @@
-====================================
  ___                 ___          _ 
 | . | _ _ ___  _ _  / __> ___ _ _<_>
 |   || ' <_> || | | \__ \/ . \ ' | |
 |_|_||_|_<___|`_. | <___/\___/_|_|_|
               <___'                                                                                 
-=====================================
 
 I am an Electrical and Computer Engineering student at Carnegie Mellon University. 
-I love computer science and physics, especially in regards to programming and circuit logic. 
+Currently I am interested in Autonomy and FPGAs.
 
-To view available commands, type 'help'. To list available files and links, type 'ls'. 
-This terminal differs from traditional PowerShell and CommandShell commands.
+Try 'display about' or 'display resume'.
 
 Thanks to Jakub T. Jankiewicz for the base library. 
-https://terminal.jcubic.pl/#download for the download. 
-https://github.com/sponsors/jcubic for donations to creator.
+https://github.com/sponsors/jcubic for donations.
 
-EXAMPLES :
-    - 'help'
-    - 'dir'
-    - 'type about.txt'
-    - 'type experience.txt' 
+Email: 'anays@andrew.cmu.edu'.

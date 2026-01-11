@@ -3,7 +3,6 @@
   padding: 0px;
 }
 body {
-  color: #0076ce;
   font-family: "Source Sans Pro", sans-serif;
   user-select: none;
   -moz-user-select: none;
@@ -23,19 +22,17 @@ body {
   font-size: 250%;
   margin-bottom: 15%;
 }
-#media h1:hover {
+#media h2 {
   color: #d0dae0;
-  transition: 0.5s;
-}
-#media h3 {
-  color: #d0dae0;
-  font-size: 100%;
-  margin-bottom: 5%;
+  font-size: 125%;
 }
 #media ul li {
   display: inline-block;
   list-style: none;
-  padding: 40px 30px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 150%;
 }
 #media a {
@@ -44,46 +41,24 @@ body {
 }
 #media a:hover {
   color: #d0dae0;
-  text-shadow: 0 0 7px #d0dae0, 0 0 10px #d0dae0;
-  transition: 0.5s;
+  text-shadow: 0 0 1px #d0dae0, 0 0 1px #d0dae0;
+  transition: 0.125s;
 }
-#media .test {
+#media .terminal-container {
   position: fixed;
   height: 150%;
   width: 200%;
   overflow-y: auto;
   overflow-x: hidden;
   transform: translate(-25%, 0%);
-  border-radius: 0px;
+  border-radius: 5px;
+  border-width: 1px;
   border-style: solid;
-  border-color: white;
+  border-color: #d0dae0;
 }
 .terminal,
 .cmd,
 .terminal .terminal-output div div,
 .cmd .prompt {
   text-align: left;
-  font-size: 12px;
-  line-height: 24px;
-  color: #aaa;
-}
-.cmd,
-.cmd span:not(.fas):not(.far):not(.fa),
-.terminal,
-.terminal-output > :not(.raw),
-.terminal-output > :not(.raw) a,
-.terminal-output > :not(.raw) span:not(.fas):not(.far):not(.fa) {
-  font-family: "Source Code Pro", monospace;
-}
-h4 {
-  color: #034694;
-  position: fixed;
-  bottom: 0;
-  width: 10%;
-  margin-bottom: 1%;
-  margin-left: 1%;
-}
-h4 a {
-  color: #034694;
-  text-decoration: none;
 }
