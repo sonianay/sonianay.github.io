@@ -1,15 +1,10 @@
- ___                 ___          _ 
-| . | _ _ ___  _ _  / __> ___ _ _<_>
-|   || ' <_> || | | \__ \/ . \ ' | |
-|_|_||_|_<___|`_. | <___/\___/_|_|_|
-              <___'                                                                                 
+I am an ECE student at Carnegie Mellon. I am interested in autonomy and FPGAs. 
 
-I am an Electrical and Computer Engineering student at Carnegie Mellon University. 
-Currently I am interested in Autonomy and FPGAs.
+Currently, I am a TA for Computer Systems at CMU, 
+and am incoming at Oshkosh as an Autonomy Engineer Intern.
 
-Try 'display about' or 'display resume'.
+https://github.com/sponsors/jcubic for donations to library writer.
 
-Thanks to Jakub T. Jankiewicz for the base library. 
-https://github.com/sponsors/jcubic for donations.
-
-Email: 'anays@andrew.cmu.edu'.
+To learn more about my work, type 'display work'.
+To contact me, my email is 'anays@andrew.cmu.edu'.
+To show this text again, type 'display about'.

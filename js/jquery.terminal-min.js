@@ -2665,7 +2665,7 @@
       wrongPassword: "Wrong password!",
       ajaxAbortError: "Error while aborting ajax call!",
       wrongArity: "Wrong number of arguments. Function '%s' expect %s got %s!",
-      commandNotFound: "'%s' is not an internal or external command. \n\n",
+      commandNotFound: "https://www.youtube.com/watch?v=dQw4w9WgXcQ \n\n",
       oneRPCWithIgnore: "You can use only one rpc with ignoreSystemDescribe",
       oneInterpreterFunction:
         "You can't use more then one function (rpc with " +
