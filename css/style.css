@@ -8,7 +8,6 @@ body {
   -moz-user-select: none;
   overflow: hidden;
   background-size: cover;
-  background-image: url(../assets/60621739301.jpg);
 }
 #media {
   text-align: center;
@@ -58,7 +57,21 @@ body {
 }
 .terminal,
 .cmd,
-.terminal .terminal-output div div,
-.cmd .prompt {
+.terminal-output div div,
+.prompt {
   text-align: left;
+}
+@media only screen and (max-width: 550px) {
+  .terminal,
+  .cmd,
+  .terminal-output div div,
+  .prompt {
+    display: none;
+  }
+}
+#credit {
+  font-family: source code pro, FreeMono, monospace;
+  color: #aaa;
+  font-size: 75%;
+  margin: 10px auto;
 }

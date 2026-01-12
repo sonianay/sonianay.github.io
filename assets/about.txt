@@ -1,7 +1,7 @@
 I am an ECE student at Carnegie Mellon. I am interested in autonomy and FPGAs. 
 
-Currently, I am a TA for Computer Systems at CMU, 
-and am incoming at Oshkosh as an Autonomy Engineer Intern.
+Currently, I am a TA for Computer Systems at CMU, and am incoming at 
+Oshkosh as an Autonomy Engineer Intern.
 
 https://github.com/sponsors/jcubic for donations to library writer.
 

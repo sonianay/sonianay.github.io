@@ -1,3 +1,8 @@
+document.body.style.backgroundImage = "url(../assets/2.jpg)";
+creditElement = document.getElementById("credit");
+creditElement.innerHTML = "Picture: <span style=\"font-style: italic;\">The Great Day of His Wrath</span> " +
+                          "by <span style=\"font-style: italic;\">John Martin</span>";
+
 const hosts = ['mickey', 'goofy', 'daffy'];
 var randomHost = hosts[Math.floor(Math.random() * hosts.length)];
 var header = "guest@" + randomHost + ":~$ "; 
