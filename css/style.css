@@ -70,6 +70,8 @@ body {
   }
 }
 #credit {
+  user-select: text;
+  -moz-user-select: text;
   font-family: source code pro, FreeMono, monospace;
   color: #aaa;
   font-size: 75%;
