@@ -1,9 +1,9 @@
 I am an ECE student at Carnegie Mellon. I am interested in autonomy and FPGAs. 
 
-Currently, I am a TA for Computer Systems at CMU, a research assistant at Wood 
-Neuro Research Group, and an incoming Autonomy Engineer Intern at Oshkosh.
+Currently, I am a TA for Computer Systems at CMU, research assistant at Wood 
+Neuro Research Group, and incoming Autonomy Engineer Intern at Oshkosh.
 
-To learn more about my work, type 'display work'.
+To see my resume, type 'display work'.
 To show this text again, type 'display about'.
 Email me at 'anays@andrew.cmu.edu'.
 
