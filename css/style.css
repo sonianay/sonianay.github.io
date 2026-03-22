@@ -4,10 +4,36 @@
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
-  user-select: none;
-  -moz-user-select: none;
+  /*user-select: none;
+  -moz-user-select: none;*/
   overflow: hidden;
   background-size: cover;
+  background-color: black;
+}
+.credit-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: grid;
+  grid-template-areas: "inner-div";
+}
+.credit {
+  user-select: text;
+  -moz-user-select: text;
+  font-family: source code pro, FreeMono, monospace;
+  color: #aaa;
+  font-size: 75%;
+  transition: opacity 1.5s ease-in-out;
+  grid-area: inner-div;
+}
+.bg {
+  position: fixed;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1.5s ease-in-out;
+  z-index: -1;
 }
 #media {
   text-align: center;
@@ -24,6 +50,10 @@ body {
 #media h2 {
   color: #d0dae0;
   font-size: 125%;
+}
+#media ul {
+  user-select: none;
+  -moz-user-select: none;
 }
 #media ul li {
   display: inline-block;
@@ -46,14 +76,16 @@ body {
 #media .terminal-container {
   position: fixed;
   height: 150%;
-  width: 200%;
+  width: 225%;
   overflow-y: auto;
   overflow-x: hidden;
-  transform: translate(-25%, 0%);
+  transform: translate(-27.5%, 0%);
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   border-color: #d0dae0;
+  user-select: none;
+  -moz-user-select: none;
 }
 .terminal,
 .cmd,
@@ -68,12 +100,4 @@ body {
   .prompt {
     display: none;
   }
-}
-#credit {
-  user-select: text;
-  -moz-user-select: text;
-  font-family: source code pro, FreeMono, monospace;
-  color: #aaa;
-  font-size: 75%;
-  margin: 10px auto;
 }

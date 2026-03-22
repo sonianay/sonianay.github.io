@@ -1,10 +1,11 @@
 I am an ECE student at Carnegie Mellon. I am interested in autonomy and FPGAs. 
 
-Currently, I am a TA for Computer Systems at CMU, and am incoming at 
-Oshkosh as an Autonomy Engineer Intern.
-
-https://github.com/sponsors/jcubic for donations to library writer.
+Currently, I am a TA for Computer Systems at CMU, a research assistant at Wood 
+Neuro Research Group, and an incoming Autonomy Engineer Intern at Oshkosh.
 
 To learn more about my work, type 'display work'.
-To contact me, my email is 'anays@andrew.cmu.edu'.
 To show this text again, type 'display about'.
+Email me at 'anays@andrew.cmu.edu'.
+
+P.S. Jakub T. Jankiewicz wrote this library! Donations for his work here: 
+https://github.com/sponsors/jcubic.
