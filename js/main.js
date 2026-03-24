@@ -41,17 +41,28 @@ async function cycleBackgrounds() {
   }
 }
 
+const aboutText = `
+I'm an ECE student at Carnegie Mellon interested in autonomy and FPGAs.
+
+Currently, I am a ...
+- teaching assistant for Computer Systems at CMU
+- research assistant at CMU's Wood Neuro Research Group
+- and incoming Autonomy Engineer Intern at Oshkosh
+
+To see my resume, type 'display work'.
+To show this text again, type 'display about'.
+You can email me at anays@andrew.cmu.edu.
+
+P.S. Jakub T. Jankiewicz wrote this library! 
+Donations for his work here: https://github.com/sponsors/jcubic.
+`;
+
 var term = {
   display: function (file) {
     if (file == "about") {
-      fetch("assets/about.txt")
-        .then((response) => response.text())
-        .then((text) => this.echo(text))
-        .catch((error) => {
-          console.error("err", error);
-        });
+      this.echo(aboutText);
     } else if (file == "work") {
-      window.open("/assets/soni_anay_resume.pdf");
+      window.open("assets/soni_anay_resume.pdf");
     } else {
       this.echo("Only about and work available parameters.\n");
     }
@@ -60,17 +71,7 @@ var term = {
 
 jQuery(document).ready(function ($) {
   $(".terminal-container").terminal(term, {
-    greetings: function () {
-      fetch("assets/about.txt")
-        .then((response) => response.text())
-        .then((text) => {
-          this.echo(header + "display about\n\n" + text);
-        })
-        .catch((error) => {
-          this.echo("Could not load top.\n")
-          console.error("err", error);
-        });
-    },
+    greetings: function () {this.echo(header + "display about\n" + aboutText);},
     prompt: header,
   });
 });
